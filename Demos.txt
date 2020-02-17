@@ -1,0 +1,40 @@
+Demos
+https://www.youtube.com/watch?v=JA3fkpdK0lM
+
+--
+
+A1: Inyección SQL
+A3: Muestra de tráfico HTTP
+A4: Acceso a archivos del sistema mediante XXE
+A5: Acceso no autorizado a secciones de una web
+A7+A2: Captura del ID de sesión mediante XSS y suplantación de identidad
+
+--
+
+A1
+https://www.troyhunt.com/owasp-top-10-for-net-developers-part-1
+https://hdivsecurity.com/owasp-sql-injection
+
+A2
+https://www.troyhunt.com/owasp-top-10-for-net-developers-part-3
+
+A4
+https://hdivsecurity.com/owasp-xml-external-entities-xxe
+https://cheatsheetseries.owasp.org/cheatsheets/XML_External_Entity_Prevention_Cheat_Sheet.html#net
+https://pen-testing.sans.org/blog/2017/12/08/entity-inception-exploiting-iis-net-with-xxe-vulnerabilities
+https://portswigger.net/web-security/xxe/lab-exploiting-xxe-to-retrieve-files
+
+A5
+https://hdivsecurity.com/owasp-broken-access-control
+
+A6
+https://www.troyhunt.com/owasp-top-10-for-net-developers-part-6
+
+A7
+https://www.troyhunt.com/owasp-top-10-for-net-developers-part-2
+https://hdivsecurity.com/owasp-xss
+https://www.softwaretestinghelp.com/cross-site-scripting-xss-attack-test
+https://excess-xss.com
+
+A8
+https://hdivsecurity.com/owasp-insecure-deserialization

